@@ -62,7 +62,7 @@ Extracted from memory access traces:
 The model outputs the probability of a cache hit:
 
 \[
-P(\text{hit}) = \sigma(w_0 + w_1x_1 + w_2x_2 + ... + w_nx_n)
+P(hit) = sigmoid(w0 + w1*x1 + w2*x2 + ... + wn*xn)
 \]
 
 Where:
